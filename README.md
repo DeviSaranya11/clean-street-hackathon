@@ -1,7 +1,6 @@
-# 📌 Clean Street – Infosys Project  
+# 📌 Clean Street – 
 
-## 📖 Overview  
-This project is developed as part of the **Infosys Springboard Virtual Internship 6.0**.  
+## 📖 Overview   
 The goal is to build a **smart solution for reporting, tracking, and managing street cleanliness issues** using modern web technologies.  
 
 ---
