@@ -38,7 +38,7 @@ const VolunteerDashboard = () => {
   const [activities, setActivities] = useState([]); // ✅ NEW STATE FOR ADMIN LOGS
 
   const user = JSON.parse(localStorage.getItem("user"));
-  const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:3002";
+  const backend_Url = "https://clean-street-hackathon.onrender.com";
 
   useEffect(() => {
     if (user?.role !== "volunteer") {

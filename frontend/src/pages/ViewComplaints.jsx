@@ -14,7 +14,7 @@ const ViewComplaints = () => {
   const [error, setError] = useState("");
   const [selectedComplaint, setSelectedComplaint] = useState(null);
   const [user, setUser] = useState(null);
-  const backend_Url = import.meta.env.VITE_BACKEND_URL || "http://localhost:3002";
+  const backend_Url = "https://clean-street-hackathon.onrender.com";
 
   useEffect(() => {
     try {

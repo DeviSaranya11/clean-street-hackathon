@@ -33,7 +33,7 @@ const UserDashboard = () => {
   });
   const [loading, setLoading] = useState(true);
   const [activities, setActivities] = useState([]);
-  const backend_Url = import.meta.env.VITE_BACKEND_URL || "http://localhost:3002";
+  const backend_Url = "https://clean-street-hackathon.onrender.com";
 
   const user = JSON.parse(localStorage.getItem("user"));
 

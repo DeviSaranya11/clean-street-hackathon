@@ -11,7 +11,7 @@ dotenv.config({ path: path.resolve(__dirname, "../.env") });
 
 const config = {
   MONGO_URL: process.env.MONGO_URL || process.env.MongoDBURL || null,
-  PORT: process.env.PORT || 3002,
+  PORT: process.env.PORT || 5000,
   JWT_USER_SECRET: process.env.JWT_USER_SECRET || process.env.JWT_SECRET || null,
   JWT_ADMIN_SECRET: process.env.JWT_ADMIN_SECRET || process.env.JWT_SECRET || null,
   NODE_ENV : process.env.NODE_ENV || 'development'

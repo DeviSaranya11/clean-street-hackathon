@@ -19,8 +19,8 @@ const __dirname = path.dirname(__filename);
 // --- Middleware ---
 app.use(cors({
   origin: [
-    "http://localhost:5173",
-    "https://infosys-spring-board-clean-p-roject.vercel.app"
+    "http://localhost:5173",                // local frontend (dev)
+    "https://clean-street-hackathon.vercel.app" 
   ],
   credentials: true
 }));

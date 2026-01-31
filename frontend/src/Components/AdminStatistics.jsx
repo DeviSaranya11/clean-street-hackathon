@@ -20,8 +20,8 @@ const COLORS = {
 const AdminStatistics = () => {
   const [loading, setLoading] = useState(true);
   const [stats, setStats] = useState(null);
-  const backend_Url = import.meta.env.VITE_BACKEND_URL || "http://localhost:3002";
-
+  const backend_Url = "https://clean-street-hackathon.onrender.com";
+  
   useEffect(() => {
     fetchDetailedStats();
   }, []);

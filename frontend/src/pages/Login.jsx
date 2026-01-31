@@ -14,7 +14,7 @@ export default function Login() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-  const backend_Url = import.meta.env.VITE_BACKEND_URL || "http://localhost:3002";
+  const backend_Url = "https://clean-street-hackathon.onrender.com";
   
   const handleSubmit = async (e) => {
     e.preventDefault();
