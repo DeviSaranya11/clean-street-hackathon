@@ -1,0 +1,19 @@
+@keyframes spark-animation {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    /* For a simple fade-out, you can remove the translate or define --random-x/y dynamically */
+    transform: translate(
+      calc((var(--random-x, 0.5) - 0.5) * 100px), /* Default to no movement if not set */
+      calc((var(--random-y, 0.5) - 0.5) * 100px)  /* Default to no movement if not set */
+    ) scale(0);
+    opacity: 0;
+  }
+}
+
+.spark {
+  /* Initial styles are set inline in JS */
+  /* The animation will override/supplement these */
+}
