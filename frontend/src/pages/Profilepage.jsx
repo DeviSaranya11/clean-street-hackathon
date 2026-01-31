@@ -15,8 +15,8 @@ const FormMessage = ({ type, message }) => {
         </div>
     );
 };
+const backend_Url = "http://localhost:3002";
 
-const backend_Url = "https://clean-street-hackathon.onrender.com";
 
 export default function Profilepage() {
   const navigate = useNavigate();

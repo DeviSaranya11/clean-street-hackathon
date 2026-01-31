@@ -28,7 +28,8 @@ const AdminDashboard = () => {
   const [assignedToFilter, setAssignedToFilter] = useState("");
 
   const currentUser = JSON.parse(localStorage.getItem("user"));
-  const backend_Url = "https://clean-street-hackathon.onrender.com";
+  const backend_Url = "http://localhost:3002";
+  
 
   useEffect(() => {
     if (currentUser?.role !== "admin") {

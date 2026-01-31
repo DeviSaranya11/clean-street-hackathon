@@ -20,7 +20,8 @@ const COLORS = {
 const AdminStatistics = () => {
   const [loading, setLoading] = useState(true);
   const [stats, setStats] = useState(null);
-  const backend_Url = "https://clean-street-hackathon.onrender.com";
+  const backend_Url = "http://localhost:3002";
+  
   
   useEffect(() => {
     fetchDetailedStats();
