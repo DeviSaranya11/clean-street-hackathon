@@ -38,7 +38,7 @@ const VolunteerDashboard = () => {
   const [activities, setActivities] = useState([]); // ✅ NEW STATE FOR ADMIN LOGS
 
   const user = JSON.parse(localStorage.getItem("user"));
-  const backend_Url = "http://localhost:3002";
+  const backendUrl = "http://localhost:3002";
 
   useEffect(() => {
     if (user?.role !== "volunteer") {
